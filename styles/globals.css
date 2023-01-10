@@ -4,3 +4,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #131415;
+}
+
+.gradient-text {
+  background-image: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+}

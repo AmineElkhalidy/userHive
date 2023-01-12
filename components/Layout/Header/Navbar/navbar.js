@@ -9,6 +9,7 @@ import Image from "next/image";
 // Icons
 import { Bars3Icon } from "@heroicons/react/24/solid";
 
+// Header logo
 import UserhiveLogo from "../../../../public/assets/images/userhive_light.svg";
 
 const Navbar = () => {

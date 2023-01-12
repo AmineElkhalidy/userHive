@@ -20,6 +20,10 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      second: ["Libre Caslon Text", "serif"],
+    },
   },
   plugins: [],
 };

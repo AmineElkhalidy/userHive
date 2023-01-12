@@ -9,18 +9,20 @@ import Image from "next/image";
 // Icons
 import { Bars3Icon } from "@heroicons/react/24/solid";
 
+import UserhiveLogo from "../../../../public/assets/images/userhive_light.svg";
+
 const Navbar = () => {
   return (
-    <nav className="px-6 flex justify-between items-center h-full w-full">
+    <nav className="flex items-center justify-between w-full h-full px-6">
       {/* Logo */}
-      <a className="cursor-pointer">
-        <Image src={""} alt="" loading="lazy" />
+      <a className="inline-flex items-center gap-3 cursor-pointer">
+        <Image src={UserhiveLogo} className="w-7 h-7" alt="" loading="lazy" />
         <span className="text-xl font-bold text-white">Userhive</span>
       </a>
 
       {/* Mobile Nav */}
       <div className="lg:hidden">
-        <Bars3Icon className="h-6 w-6 text-white cursor-pointer" />
+        <Bars3Icon className="w-6 h-6 text-white cursor-pointer" />
       </div>
 
       {/* Desktop Nav */}

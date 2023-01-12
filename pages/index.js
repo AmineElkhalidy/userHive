@@ -1,13 +1,22 @@
 import React from "react";
 
+// Next image component
+import Image from "next/image";
+
 // Components
 import Header from "../components/Layout/Header/header";
 import Footer from "../components/Layout/Footer/footer";
 import Button from "../components/Buttons/button";
+import Card from "../components/Cards/card";
 
 // Icons
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
-import Card from "../components/Cards/card";
+
+// Images
+import PortfolioCollectiveLogo from "../public/assets/images/the-portfolio-collective.svg";
+import InfarmLogo from "../public/assets/images/infarm1.svg";
+import FitbitLogo from "../public/assets/images/Fitbit_logo16.svg";
+import SenicLogo from "../public/assets/images/SENIC-logo-rgb-W_720x.webp";
 
 const Home = () => {
   return (
@@ -132,6 +141,45 @@ const Home = () => {
                   <ArrowRightIcon className="w-[1.2rem] h-[1.2rem] duration-300 group-hover:translate-x-2" />
                 </a>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* Logos section */}
+        <section className="bg-black-900 lg:h-screen lg:flex lg:justify-center lg:items-center">
+          <div className="pt-24 pl-6 lg:pt-0 lg:pl-12">
+            <div>
+              <h2 className="text-[1.75rem] font-extrabold text-white mb-12 lg:text-3xl">
+                <span className="gradient-text">Trusted</span> by big and small
+              </h2>
+
+              {/* Logos */}
+              <div className="grid gap-6 place-items-center sm:grid-cols-2 md:grid-cols-4">
+                <Image
+                  src={PortfolioCollectiveLogo}
+                  alt=""
+                  className="h-16"
+                  loading="lazy"
+                />
+                <Image
+                  src={InfarmLogo}
+                  alt=""
+                  className="h-32"
+                  loading="lazy"
+                />
+                <Image
+                  src={FitbitLogo}
+                  alt=""
+                  className="w-56"
+                  loading="lazy"
+                />
+                <Image
+                  src={SenicLogo}
+                  alt=""
+                  className="w-48 mt-8 sm:mt-0"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </section>

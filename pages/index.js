@@ -53,8 +53,9 @@ const Home = () => {
             </p>
 
             <div className="flex items-center justify-center">
-              <Button styles="flex items-center gap-2 gradient-bg py-3 px-[18px] rounded-full font-bold">
-                Start now <i class="bx bx-right-arrow-alt text-[1.25rem]"></i>
+              <Button styles="flex items-center gap-2 gradient-bg py-3 px-[18px] rounded-full font-bold group">
+                Start now{" "}
+                <i class="bx bx-right-arrow-alt text-[1.25rem] duration-300 group-hover:translate-x-2"></i>
               </Button>
             </div>
           </div>
@@ -163,7 +164,7 @@ const Home = () => {
         >
           <div className="py-24 pl-6 lg:pt-0 lg:pl-12 lg:py-0">
             <div>
-              <h2 className="text-[1.75rem] font-extrabold text-white mb-12 lg:text-3xl">
+              <h2 className="text-[1.75rem] font-extrabold text-white mb-12 lg:text-3xl xl:text-4xl">
                 <span className="gradient-text">Trusted</span> by big and small
               </h2>
 
@@ -202,7 +203,7 @@ const Home = () => {
         <section className="relative w-full h-full" id="work">
           <div className="px-6 py-24">
             <div className="mb-12">
-              <h2 className="max-w-2xl mb-8 text-4xl font-extrabold text-white md:text-5xl">
+              <h2 className="max-w-2xl mb-8 text-4xl font-extrabold text-white md:text-5xl lg:text-6xl lg:max-w-4xl">
                 A <span className="turn-key">turn-key</span> approach to
                 continuous user discovery
               </h2>
@@ -320,7 +321,7 @@ const Home = () => {
 
                     <div className="text-center">
                       <div className="inline-block rounded-full shadow-lg">
-                        <Button styles="px-6 py-3 bg-[#5E5DF0] rounded-full">
+                        <Button styles="px-7 py-3 bg-[#5E5DF0] rounded-full duration-300 hover:bg-white hover:text-[#5E5DF0]">
                           Let&apos;s go
                         </Button>
                       </div>
@@ -352,7 +353,7 @@ const Home = () => {
 
                     <div className="text-center">
                       <div className="inline-block rounded-full shadow-lg">
-                        <Button styles="px-6 py-3 bg-[#5E5DF0] rounded-full">
+                        <Button styles="px-7 py-3 bg-[#5E5DF0] rounded-full hover:bg-white hover:text-[#5E5DF0]">
                           Let&apos;s go
                         </Button>
                       </div>
@@ -373,7 +374,7 @@ const Home = () => {
 
                     <div className="text-center pt-44 lg:pt-[13.4rem]">
                       <div className="inline-block rounded-full shadow-lg">
-                        <Button styles="px-6 py-3 bg-[#5E5DF0] rounded-full">
+                        <Button styles="px-7 py-3 bg-[#5E5DF0] rounded-full hover:bg-white hover:text-[#5E5DF0]">
                           Let&apos;s go
                         </Button>
                       </div>

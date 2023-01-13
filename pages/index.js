@@ -36,7 +36,7 @@ const Home = () => {
       <main className="overflow-hidden">
         {/* Hero section */}
         <section className="h-screen" id="hero">
-          <div className="h-full mt-12 text-center md:mt-16 lg:mt-28">
+          <div className="h-full mt-[4.5rem] text-center md:mt-16 lg:mt-28">
             <h1 className="px-6 mb-12 text-4xl font-black text-white md:text-5xl lg:text-6xl">
               Heads of Product hire us to do continuous user discovery, so they
               can
@@ -53,7 +53,10 @@ const Home = () => {
             </p>
 
             <div className="flex items-center justify-center">
-              <Button styles="flex items-center gap-2 gradient-bg py-3 px-[18px] rounded-full font-bold group">
+              <Button
+                href="#"
+                styles="flex items-center gap-2 gradient-bg py-3 px-[18px] rounded-full font-bold group"
+              >
                 Start now{" "}
                 <i class="bx bx-right-arrow-alt text-[1.25rem] duration-300 group-hover:translate-x-2"></i>
               </Button>
@@ -321,7 +324,10 @@ const Home = () => {
 
                     <div className="text-center">
                       <div className="inline-block rounded-full shadow-lg">
-                        <Button styles="px-7 py-3 bg-[#5E5DF0] rounded-full duration-300 hover:bg-white hover:text-[#5E5DF0]">
+                        <Button
+                          href="#"
+                          styles="px-7 py-3 bg-[#5E5DF0] rounded-full duration-300 hover:bg-white hover:text-[#5E5DF0]"
+                        >
                           Let&apos;s go
                         </Button>
                       </div>
@@ -353,7 +359,10 @@ const Home = () => {
 
                     <div className="text-center">
                       <div className="inline-block rounded-full shadow-lg">
-                        <Button styles="px-7 py-3 bg-[#5E5DF0] rounded-full hover:bg-white hover:text-[#5E5DF0]">
+                        <Button
+                          href="#"
+                          styles="px-7 py-3 bg-[#5E5DF0] rounded-full hover:bg-white hover:text-[#5E5DF0]"
+                        >
                           Let&apos;s go
                         </Button>
                       </div>
@@ -374,7 +383,10 @@ const Home = () => {
 
                     <div className="text-center pt-44 lg:pt-[13.4rem]">
                       <div className="inline-block rounded-full shadow-lg">
-                        <Button styles="px-7 py-3 bg-[#5E5DF0] rounded-full hover:bg-white hover:text-[#5E5DF0]">
+                        <Button
+                          href="#"
+                          styles="px-7 py-3 bg-[#5E5DF0] rounded-full hover:bg-white hover:text-[#5E5DF0]"
+                        >
                           Let&apos;s go
                         </Button>
                       </div>

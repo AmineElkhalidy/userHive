@@ -54,7 +54,7 @@ const Home = () => {
 
             <div className="flex items-center justify-center">
               <Button styles="flex items-center gap-2 gradient-bg py-3 px-[18px] rounded-full font-bold">
-                Start now <ArrowRightIcon className="w-5 h-5" />
+                Start now <i class="bx bx-right-arrow-alt text-[1.25rem]"></i>
               </Button>
             </div>
           </div>
@@ -289,14 +289,16 @@ const Home = () => {
         <section className="bg-black-900" id="moving">
           <div className="pt-24">
             <div>
-              <h2 className="mb-24 text-4xl font-extrabold text-center text-white">
+              <h2 className="mb-24 text-4xl font-extrabold text-center text-white sm:text-5xl md:text-6xl">
                 Let&apos;s get <span className="moving">moving</span>
               </h2>
 
               <div className="px-6">
                 <div className="bg-[#131415] p-6 grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:gap-8">
                   <Card styles="special-card text-white md:p-8">
-                    <h3 className="mb-4 text-3xl font-extrabold">Small</h3>
+                    <h3 className="mb-4 text-3xl font-extrabold lg:text-4xl">
+                      Small
+                    </h3>
                     <p>Best for partnering with a single product team</p>
 
                     <div className="my-10">
@@ -326,7 +328,9 @@ const Home = () => {
                   </Card>
 
                   <Card styles="text-white md:p-8">
-                    <h3 className="mb-4 text-3xl font-extrabold">Medium</h3>
+                    <h3 className="mb-4 text-3xl font-extrabold lg:text-4xl">
+                      Medium
+                    </h3>
                     <p>Best for partnering with multiple product teams</p>
 
                     <div className="my-10">
@@ -356,7 +360,9 @@ const Home = () => {
                   </Card>
 
                   <Card styles="text-white md:p-8">
-                    <h3 className="mb-4 text-3xl font-extrabold">Large</h3>
+                    <h3 className="mb-4 text-3xl font-extrabold lg:text-4xl">
+                      Large
+                    </h3>
 
                     <div className="my-10">
                       <p className="mb-3">

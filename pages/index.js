@@ -223,7 +223,7 @@ const Home = () => {
               </h3>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <div>
+                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i className="text-xl text-white bx bx-fast-forward"></i>
                   </div>
@@ -239,7 +239,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div>
+                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i class="text-xl text-white bx bx-intersect"></i>
                   </div>
@@ -255,7 +255,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div>
+                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i class="text-xl text-white bx bx-run"></i>
                   </div>
@@ -269,7 +269,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div>
+                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i class="text-xl text-white bx bx-heart"></i>
                   </div>

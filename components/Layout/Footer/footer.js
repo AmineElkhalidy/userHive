@@ -16,7 +16,7 @@ const Footer = () => {
           <Image className="w-10 h-10" src={FooterLogo} alt="Footer logo" />
           <span className="text-lg font-bold">Userhive</span>
         </div>
-        <p className="mt-3 sm:mt-5">
+        <p className="mt-3 text-sm sm:mt-5">
           Copyright © {currentYear} Userhive. All rights reserved.
         </p>
       </div>

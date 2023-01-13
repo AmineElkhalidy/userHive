@@ -9,9 +9,6 @@ import Footer from "../components/Layout/Footer/footer";
 import Button from "../components/Buttons/button";
 import Card from "../components/Cards/card";
 
-// Icons
-import { ArrowRightIcon } from "@heroicons/react/20/solid";
-
 // Images
 import PortfolioCollectiveLogo from "../public/assets/images/the-portfolio-collective.svg";
 import InfarmLogo from "../public/assets/images/infarm1.svg";
@@ -117,9 +114,9 @@ const Home = () => {
                   customer.
                 </p>
 
-                <a className="inline-flex items-center cursor-pointer gap-2 text-md text-[#7381ff] group">
+                <a className="inline-flex items-center cursor-pointer gap-1 text-md text-[#7381ff] group">
                   Learn more{" "}
-                  <ArrowRightIcon className="w-[1.2rem] h-[1.2rem] duration-300 group-hover:translate-x-2" />
+                  <i class="bx bx-right-arrow-alt text-[1.25rem] duration-300 group-hover:translate-x-2"></i>
                 </a>
               </Card>
 
@@ -135,9 +132,9 @@ const Home = () => {
                   rush subsides.
                 </p>
 
-                <a className="inline-flex items-center cursor-pointer gap-2 text-md text-[#7381ff] group">
+                <a className="inline-flex items-center cursor-pointer gap-1 text-md text-[#7381ff] group">
                   Learn more{" "}
-                  <ArrowRightIcon className="w-[1.2rem] h-[1.2rem] duration-300 group-hover:translate-x-2" />
+                  <i class="bx bx-right-arrow-alt text-[1.25rem] duration-300 group-hover:translate-x-2"></i>
                 </a>
               </Card>
 
@@ -151,9 +148,9 @@ const Home = () => {
                   Continuous User Discovery.
                 </p>
 
-                <a className="inline-flex items-center cursor-pointer gap-2 text-md text-[#7381ff] group">
+                <a className="inline-flex items-center cursor-pointer gap-1 text-md text-[#7381ff] group">
                   Learn more{" "}
-                  <ArrowRightIcon className="w-[1.2rem] h-[1.2rem] duration-300 group-hover:translate-x-2" />
+                  <i class="bx bx-right-arrow-alt text-[1.25rem] duration-300 group-hover:translate-x-2"></i>
                 </a>
               </Card>
             </div>
@@ -223,7 +220,7 @@ const Home = () => {
               </h3>
 
               <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
+                <div className="hover:bg-[#2c2c30] p-3 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i className="text-xl text-white bx bx-fast-forward"></i>
                   </div>
@@ -239,7 +236,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
+                <div className="hover:bg-[#2c2c30] p-3 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i class="text-xl text-white bx bx-intersect"></i>
                   </div>
@@ -255,7 +252,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
+                <div className="hover:bg-[#2c2c30] p-3 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i class="text-xl text-white bx bx-run"></i>
                   </div>
@@ -269,7 +266,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div className="hover:bg-[#2c2c30] hover:p-2 hover:rounded-lg hover:cursor-pointer">
+                <div className="hover:bg-[#2c2c30] p-3 hover:rounded-lg hover:cursor-pointer">
                   <div className="flex items-center justify-center w-12 h-12 bg-[#6968F7] rounded-full">
                     <i class="text-xl text-white bx bx-heart"></i>
                   </div>
